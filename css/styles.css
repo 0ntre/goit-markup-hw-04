@@ -160,8 +160,17 @@ body {
 
 /* =============Main content============= */
 .banner {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/baner_img.jpg);
+  background-size: cover;
   background-color: #2e2f42;
   padding: 188px 0 188px 0;
+  min-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner-header {
@@ -214,6 +223,13 @@ body {
 
 .advantages-list-item {
   width: calc((100% - 3 * 24px) / 4);
+}
+
+.advantages-icon {
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+  padding: 24px 100px;
 }
 
 .advantages-item-name {
