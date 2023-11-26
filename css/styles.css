@@ -167,12 +167,16 @@ body {
 }
 
 /* =============Main content============= */
+/* =============Banner============= */
 .banner {
   background-color: #2e2f42;
   padding: 188px 0 188px 0;
   min-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-banner {
@@ -223,7 +227,6 @@ body {
 }
 
 /* =============Advantages============= */
-
 .advantages {
   padding: 120px 0 120px 0;
 }
