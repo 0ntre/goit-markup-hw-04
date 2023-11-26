@@ -123,6 +123,10 @@ body {
   color: #404bbf;
 }
 
+.menu-item {
+  position: relative;
+}
+
 .contacts {
   font-style: normal;
 }
