@@ -388,6 +388,11 @@ body {
 }
 
 /* =============Footer============= */
+.footer-content {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-light-text {
   color: #f4f4fd;
   width: 264px;
@@ -400,8 +405,12 @@ body {
 
 .footer-container {
   padding: 100px 0 100px 0;
-  display: flex;
-  align-items: baseline;
+}
+
+.footer-text-style {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .container-item-position {
