@@ -116,6 +116,7 @@ body {
   font-weight: 500;
   padding: 24px 0;
   display: block;
+  position: relative;
 }
 
 .menu-link:hover,
@@ -124,7 +125,6 @@ body {
 }
 
 .menu-item {
-  position: relative;
   color: #404bbf;
 }
 
