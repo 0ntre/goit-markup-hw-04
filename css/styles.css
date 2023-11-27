@@ -197,7 +197,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/baner_img.jpg);
+    url(./images/baner_img.jpg);
   background-size: cover;
 }
 
